@@ -13,7 +13,7 @@ class Server:
 
     def get_server_ip(self):
         return self.server_ip
-#test 6
+#test 7
 if __name__ == "__main__":
     server = Server('../config.yaml')
     server.check_localhost()
